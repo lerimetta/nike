@@ -18,7 +18,7 @@
       </div>
       <img class="ml-4" src="images/heart.svg" alt="logo">
       <img class="ml-4" src="images/shopping-bag.svg" alt="logo">
-      <img class="ml-4 cursor-pointer" src="images/menu.svg" alt="logo">
+      <img class="ml-4 cursor-pointer" src="images/menu.svg" alt="logo" id="open">
     </div>
   </header>
   <main class="px-4 max-w-[384px]">
@@ -94,6 +94,20 @@
     <p class="underline font-display font-bold text-xs mb-12">View Product Details</p>
     <p class="font-display font-medium text-xs text-center py-6">© 2025 Nike, Inc. All Rights Reserved</p>
   </main>
+  <div class="relative z-50 hidden" id="menu">
+    <div class="fixed inset-0 bg-[#b3b3b3] opacity-50"></div>
+    <div class="fixed top-0 right-0 h-screen w-44 p-4 border-l border-neutral-200 bg-white shadow-2xl">
+      <img class="mb-4 ml-auto cursor-pointer" src="images/close.svg" alt="close" id="close">
+      <ul>
+        <li class="font-display font-medium text-xs mb-4">Men</li>
+        <li class="font-display font-medium text-xs mb-4">Women</li>
+        <li class="font-display font-medium text-xs mb-4">Kids</li>
+        <li class="font-display font-medium text-xs mb-4">Jordan</li>
+        <li class="font-display font-medium text-xs mb-4">Sale</li>
+      </ul>
+    </div>
+  
+  </div>
 </body>
 
 </html>
